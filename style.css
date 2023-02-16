@@ -1,4 +1,5 @@
-*
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');*
 {
     padding: 0px;
     margin: 0px;
@@ -13,6 +14,11 @@ html
 {
     background-color: rgb(255, 103, 27);
     font-size: 1.2rem;
+}
+.navbar-brand
+{
+    font-family: 'Orbitron', sans-serif;
+
 }
 .row
 {
@@ -68,6 +74,10 @@ html
     height: 3px;
     background-color: rgb(255, 103, 27);
 }
+.about h1, #Education h1, #skill-heading, #projects h1
+{
+    font-family: 'Teko', sans-serif;
+}
 #abt-img
 {
     width: 40%;
@@ -121,11 +131,11 @@ button:hover
     height: 35%;
 }
 
-.Skills .shadow:hover
+/* .Skills .shadow:hover
 {
     background-color: #dcdcdc;
     cursor: pointer;
-}
+} */
 .contact
 {
     
