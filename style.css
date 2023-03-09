@@ -46,11 +46,10 @@ html
 }
 #home-img
 {
-    width: 60%;
-    padding: 1rem;
-    height: 30%;
+     width: 40%;
+    height: 10%;
     border: 4px solid rgb(255, 103, 27);
-    box-shadow: 15px 10px rgb(255, 103, 27);
+    clip-path: inset(0 0 0 0);
     position: relative;
     animation: float 2.5s linear;
     transition: all 2s ease-in;
